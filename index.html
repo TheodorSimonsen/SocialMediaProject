@@ -16,15 +16,17 @@
         </article>
         <article>
             <div class="login_form">
-                <form action="ja" method="POST">
+                <form action="logget-ind.html" method="POST">
                     <label for="uname">Username</label>
                     <input type="text" name="uname" required maxlength="25">
 
                     <label for="Password">Password</label>
                     <input type="password" name="Password" required maxlength="25" >
 
-                    <input type="submit" value="Login" >
+                    <input type="submit" value="Login">
                     <br>
+                    <input type="checkbox" name="remember">
+                    <label for="remember">Remember username</label>
                     <a href="#">Forgot Your Password?</a>
                 </form>
             </div>
@@ -33,8 +35,29 @@
                   
     <!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->
     <main id="main">
-        
+        <article>
+            <h1>Welcome to Lions Mouth</h1>
+            <h3>Sign in to the right, or log in above!</h3>
+        </article>
+        <article>
+            <form action="nej" method="POST">
+                <label for="uname">Username</label>
+                <input type="text" name="uname" placeholder="Enter your username" required maxlength="25">
+
+                <label for="email">Email</label>
+                <input type="text" placeholder="Enter your email" name="email" required>
+
+                <label for="password">Password</label>
+                <input type="password" name="password" placeholder="Enter your password" required maxlength="25">
+
+                <label for="repeat">Repeat Password</label>
+                <input type="password" name="repeat" required placeholder="Repeat your password">
+
+                <label>By creating an account you agree to our <a href="#">Terms & Conditions</a></label>
+
+                <input type="submit" value="Sign Up">
+            </form>
+        </article>
     </main>
-    <script src="js/menu.js"></script>
 </body>
 </html>
