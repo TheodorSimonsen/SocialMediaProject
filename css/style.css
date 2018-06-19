@@ -27,7 +27,7 @@ header article label {
 }
 
 header article input {
-    padding:5px 20px;
+    padding:5px 10px;
 }
 
 header article input:nth-last-child(3) {
@@ -41,7 +41,7 @@ header article input:nth-last-child(3) {
 
 header article form a {
     font-size: 13px;
-    margin:0 0 0 547px; 
+    margin:0 0 0 507px; 
     text-decoration: none;
     color:#434343;
     transition: color 0.1s;
