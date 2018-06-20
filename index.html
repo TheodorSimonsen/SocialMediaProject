@@ -18,15 +18,14 @@
             <div class="login_form">
                 <form action="logget-ind.html" method="POST">
                     <label for="uname">Username</label>
-                    <input type="text" name="uname" required maxlength="25">
+                    <input type="text" name="uname" required maxlength="25" id="username">
 
                     <label for="Password">Password</label>
                     <input type="password" name="Password" required maxlength="25" >
 
                     <input type="submit" value="Login">
                     <br>
-                    <input type="checkbox" name="remember">
-                    <label for="remember">Remember username</label>
+                    <label><input type="checkbox" id="remember" name="remember">Remember username</label>
                     <a href="#">Forgot Your Password?</a>
                 </form>
             </div>
@@ -59,5 +58,6 @@
             </form>
         </article>
     </main>
+    <script src="js/remember.js"></script>
 </body>
 </html>

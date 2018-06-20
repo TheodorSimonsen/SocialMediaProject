@@ -117,7 +117,7 @@ header article form a:hover {
     background-image: url(../img/featured-overlay.png);
     background-repeat: no-repeat;
     background-size: cover;
-    height:87.4vh;
+    height:100vh;
 }
 
 #main article {
