@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>John Doe - Lions Mouth</title>
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
     <link rel="shortcut icon" href="img/logo.png">
 </head>
 <body>
@@ -20,11 +20,19 @@
         </nav>
                   
                   <!-- Use any element to open the sidenav -->
-                <article>
-                    <span onclick="openNav()"><i class="fa fa-bars"></i></span>
+                <article id="logget-ind">
+                    <span onclick="openNav()"><i class="fa fa-bars fa-2x"></i></span>
                 </article>
-                <article class="logged-in">
-                    
+                <article class="profile">
+                    <div class="profile-person">
+                        <a href="#"><img src="img/Unknown-character-profile.png" alt="profile-billede" height="40">
+                        <h5>John Doe</h5></a>
+                    </div>
+                    <div class="profile-dropdowns">
+                        <a href="#"><i class="fas fa-user-friends fa-2x"></i></a>
+                        <a href="#"><i class="fas fa-envelope fa-2x"></i></a>
+                        <a href="#"><i class="fas fa-globe fa-2x"></i></a>
+                    </div>
                 </article>
     </header>
                   <!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->
